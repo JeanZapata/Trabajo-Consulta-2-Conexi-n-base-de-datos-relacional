@@ -46,7 +46,7 @@ import java.sql.{Connection, DriverManager, ResultSet}
 object MySQLConnection {
   def main(args: Array[String]): Unit = {
     // Configuración de la conexión
-    val url = "jdbc:mysql://localhost:3306/scala_db"
+    val url = "jdbc:mysql://localhost:3306/scala_bd"
     val user = "root" 
     val password = "root"
 
